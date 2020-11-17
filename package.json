@@ -1,0 +1,15 @@
+{
+  "name": "deno-with-ts",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "b": "tsc --init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "iugo <test@iugo.dev>"
+}
