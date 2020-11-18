@@ -1,0 +1,9 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  // 新版 deno 扩展需要本地设置打开 deno
+  // https://github.com/denoland/vscode_deno/issues/139
+  "deno.enable": true,
+  "deno.import_intellisense_origins": {
+    "https://deno.land": true
+  }
+}
